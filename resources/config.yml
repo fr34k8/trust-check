@@ -1,0 +1,14 @@
+trustStores:
+    - alias: jdk1.7.0_79
+      path: resources/trust-stores/java/oracle/1.7.0_79/cacerts
+      password: changeit
+      type: JKS
+
+    - alias: jdk1.8.0_121
+      path: resources/trust-stores/java/oracle/1.8.0_121/cacerts
+      password: changeit
+      type: JKS
+
+    - alias: curl
+      path: resources/trust-stores/curl/cacert.pem
+      type: BUNDLE
